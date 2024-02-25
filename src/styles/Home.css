@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.home-container {
+    min-height: calc(100vh - 30vh); /* espace !!! footer */
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.app-description {
+    font-size: 1.3rem;
+    text-align: center;
+    max-width: 70%;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
+
+.get-started-button {
+    background-color: #30d4c7;
+    color: #ffffff;
+    font-size: 1.5rem;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-family: 'Roboto', sans-serif;
+}
+
+.get-started-button:hover {
+    background-color: #59ffcf;
+}
+
+
+
+@keyframes neon-glow {
+    0% { text-shadow: 0 0 5px rgba(53, 255, 238, 0.5), 0 0 10px rgba(53, 255, 238, 0.5), 0 0 15px rgba(53, 255, 238, 0.5); }
+    100% { text-shadow: 0 0 20px rgba(217, 228, 227, 0.5), 0 0 30px rgba(53, 255, 238, 0.5), 0 0 40px rgba(55, 255, 238, 0.5); }
+}
+
+
+.title-container {
+    background-image: url('../assets/mem0rize2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    padding: 7%;
+}
+
+.home-title {
+    font-size: 4rem;
+    color: #35ffee;
+    text-align: right;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    animation: neon-glow 1.5s ease-in-out infinite alternate;
+    margin-right: 20%;
+}
+
+.content-container {
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    padding : 2.5rem;
+    background: #1a1a1a; 
+    border-radius: 1.1rem;
+    display: flex;
+    flex-direction: column; 
+    gap: 3rem;
+    justify-content: center; 
+    align-items: center;
+}
+
+.cards-container {
+    background: #1a1a1a; 
+    border-radius: 1.1rem;
+    display: flex;
+    flex-direction: row; 
+    gap: 5rem;
+ margin-bottom: 5%;
+ margin-top: 5%;
+}
+
+.card-link {
+    color: #35ffee;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+@media (max-width: 768px) {
+    .cards-container {
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .title-container {
+        padding: 4%;
+    }
+
+    .home-title {
+        font-size: 3rem;
+        margin-right: 10%;
+    }
+
+    .content-container {
+        padding: 1.5rem;
+    }
+
+    .app-description {
+        font-size: 1.1rem;
+        max-width: 90%;
+    }
+
+    .get-started-button {
+        font-size: 1.3rem;
+        padding: 12px 24px;
+    }
+
+    .cards-container {
+        padding: 1.5rem;
+    }
+}

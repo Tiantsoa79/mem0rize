@@ -1,0 +1,23 @@
+body {
+  background-color: #1a1a1a; 
+  color: #fff;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+
+.container {
+ min-height: 100vh;
+ display: flex;
+ flex-direction: column;
+
+}
+
+@media (max-width: 768px) {
+  body {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}

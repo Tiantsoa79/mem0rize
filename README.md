@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# Mem0rize
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Mem0rize is an application designed to help users memorize French words using mnemonic techniques. It generates random words that users can then memorize using various mnemonic methods to facilitate learning.
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+1. Clone the repository to your local machine:
 
-### `npm start`
+```bash
+git clone <repository-url>
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Navigate to the project directory:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+cd Mem0rize
+```
 
-### `npm test`
+3. Install dependencies:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+npm install
+```
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Development Mode
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To run the app in development mode, use the following command:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm start
+```
 
-### `npm run eject`
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The page will automatically reload if you make changes to the source code. You will also see any lint errors in the console.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Production Build
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To build the app for production, use the following command:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm run build
+```
+
+This command builds the app for production to the `build` folder. The optimized production build is ready to be deployed.
+
+## Environment Variables
+
+Create a `.env` file at the root of the project and define the following environment variables:
+
+```
+REACT_APP_API_KEY=your_api_key
+```
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can learn more about Create React App in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+For deployment instructions, refer to the [deployment section](https://facebook.github.io/create-react-app/docs/deployment) in the Create React App documentation.
 
-### Analyzing the Bundle Size
+## Troubleshooting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+If you encounter any issues, refer to the [troubleshooting section](https://facebook.github.io/create-react-app/docs/troubleshooting) in the Create React App documentation.
 
-### Making a Progressive Web App
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-### Advanced Configuration
+Please make sure to update tests as appropriate.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
