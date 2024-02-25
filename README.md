@@ -2,6 +2,9 @@
 
 Mem0rize is an application designed to help users memorize French words using mnemonic techniques. It generates random words that users can then memorize using various mnemonic methods to facilitate learning.
 
+## Deployed link
+
+The Mem0rize application is deployed on [Vercel](https://vercel.com/). You can access the deployed version of the application [here](https://mem0rize.vercel.app/).
 ## Installation
 
 1. Clone the repository to your local machine:

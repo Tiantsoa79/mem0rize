@@ -187,7 +187,7 @@ const calculateScore = (recordedWords, userInputWords) => {
               type="text"
               value={userInput}
               onChange={handleUserInputChange}
-              placeholder="Dans l'ordre, avec virgules, sans numéros."
+              placeholder="Listez dans l'ordre, avec virgules, sans numéros."
               className="comparison-input"
             />
         <div className='result-button'>
