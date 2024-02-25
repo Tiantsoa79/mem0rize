@@ -7,7 +7,7 @@ Mem0rize is an application designed to help users memorize French words using mn
 1. Clone the repository to your local machine:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Tiantsoa79/mem0rize.git
 ```
 
 2. Navigate to the project directory:
